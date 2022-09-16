@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.centerInDiv {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.centerWithoutText {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: right;
+    vertical-align: middle;
+    align-items: center;
+}
+
+p {
+    @apply drop-shadow-lg;
+}
